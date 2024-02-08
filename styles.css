@@ -25,6 +25,11 @@ nav ul li {
     margin-right: 10px;
 }
 
+img {
+    width: 200px;
+    height: auto; 
+}
+
 footer {
     text-align: center;
     background-color: #223072;
