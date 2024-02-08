@@ -37,7 +37,7 @@ footer {
     background-color: #223072;
     padding: 10px;
     bottom: 0;
-    width: 96%;
+    box-sizing: border-box; 
 }
 
 footer p {
@@ -82,4 +82,5 @@ input, textarea {
 button[type="submit"] {
     width: 20%; 
     padding: 0.5em; 
+    margin-bottom: 65px;
 }
