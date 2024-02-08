@@ -10,13 +10,9 @@ header, nav, main, section, article, aside, footer {
 }
 
 h1 {
-    background-color: #223072; 
-    color: white; 
-    padding: 10px; 
-}
-
-h2 {
-    color: #333;
+    background-color: #223072; /* синий цвет фона */
+    color: white; /* белый цвет текста */
+    padding: 10px; /* добавляем отступы для лучшего визуального эффекта */
 }
 
 nav ul {
@@ -56,9 +52,28 @@ footer ul li {
 
 footer ul li a {
     color: white; 
-    text-decoration: none;
+    text-decoration: none; 
 }
 
 footer ul li a:hover {
     text-decoration: underline;
+}
+
+form div {
+    margin-bottom: 1em;
+}
+
+label {
+    display: block; 
+    margin-bottom: 0.5em; 
+}
+
+input, textarea {
+    width: 25%; 
+    padding: 0.5em; 
+}
+
+button[type="submit"] {
+    width: 20%; 
+    padding: 0.5em; 
 }
