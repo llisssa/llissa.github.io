@@ -6,11 +6,31 @@
     <title>Обратная связь</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+<style>
+  body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    color: #000080;
+    position: relative;
+}
+  
+  header, nav, main, section, article, aside, footer {
+    margin: 20px;
+}
+  
+  article {
+    text-align: left;
+    justify-content: flex-start;
+}
+</style>
 <body>
-    <header>
+    <header id="main-header">
         <h1>Я - студент ВШЭ</h1>
     </header>
-    <nav>
+    <nav style="font-style: italic;">
         <ul>
             <li><a href="index.html">Главная</a></li>
             <li><a href="https://www.hse.ru/">Официальный сайт ВШЭ</a></li>
@@ -19,7 +39,7 @@
     </nav>
     <main>
         <section>
-            <h2>Обратная связь</h2>
+            <h2 style="color: #310062; font-size: 24px;">Обратная связь</h2>
             <form action="#" method="post">
                 <div>
                     <label for="name">ФИО:</label>
