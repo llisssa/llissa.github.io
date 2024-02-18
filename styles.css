@@ -37,7 +37,7 @@ nav a:hover {
 }
 
 img {
-    max-width: 100%;
+    max-width: 60%;
     height: auto; 
 }
 
@@ -144,6 +144,6 @@ button[type="submit"] {
 
 @media screen and (max-width: 600px) {
     img {
-        width: 100%;
+        width: 60%;
     }
 }
