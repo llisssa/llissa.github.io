@@ -132,12 +132,12 @@ label {
 }
 
 input, textarea {
-    width: 100%;
+    width: 30%;
     padding: 0.5em; 
 }
 
 button[type="submit"] {
-    width: 100%;
+    width: 25%;
     padding: 0.5em; 
     margin-bottom: 65px;
 }
