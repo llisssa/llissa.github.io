@@ -87,7 +87,7 @@ window.onload = function() {
 
     popupPlayButton.addEventListener('click', playRecording);
 
-    var map = L.map('map').setView([55.8033070999, 37.41033554077], 16.45);
+    var map = L.map('map').setView([55.8033070999, 37.41033554077], 16.5);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
