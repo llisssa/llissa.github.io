@@ -86,4 +86,12 @@ window.onload = function() {
     }
 
     popupPlayButton.addEventListener('click', playRecording);
+
+    var map = L.map('map').setView([55.8033070999, 37.41033554077], 16.45);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+    L.marker([55.8033070999409, 37.41033554077149]).addTo(map)
+        .bindPopup('МИЭМ НИУ ВШЭ') 
+        .openPopup();
 };
